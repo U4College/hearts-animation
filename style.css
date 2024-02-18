@@ -1,0 +1,58 @@
+body {
+  background-color: #380559;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.heart {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  clip-path: path(
+    "M4 1.416c-1.046-1.798-4-1.272-4 0.785 0 1.249 1.492 2.527 4 4.228 2.508-1.675 4-2.913 4-4.228 0-2.283-2.982-2.799-4-0.785z"
+  );
+}
+
+.h0,
+.h1,
+.h2,
+.h3,
+.h4{
+  position: absolute;
+  animation: move linear 3s infinite;
+}
+
+.h0 {
+  background: #710765;
+  transform: scale(60);
+}
+
+.h1 {
+  background: #d46782;
+  transform: scale(40);
+}
+
+.h2 {
+  background: #e53737;
+  transform: scale(30);
+}
+
+.h3 {
+  background: #ff718b;
+  transform: scale(20);
+}
+
+.h4 {
+  background: #e6c1e0;
+ transform: scale(10);
+}
+
+@keyframes move {
+  50% {
+    transform: scale(50);
+    background: #e53737;
+  }
+}
