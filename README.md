@@ -3,7 +3,7 @@
 This is a simple HTML and CSS animation representing hearts, perfect for Valentine's Day or any romantic occasion.
 
 ## Preview
-
+https://github.com/U4College/hearts-animation/assets/154565471/533c6c02-6737-421e-b119-12186909b45f
 [Click here to see the animation in action!](https://github.com/U4College/hearts-animation/blob/main/heart_animation.mp4)
 
 
